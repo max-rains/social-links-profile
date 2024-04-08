@@ -7,7 +7,10 @@
 }
 
 .mainCard {
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 12%);
+  display: inline-block;
+  padding: 10px 20px;
+  align-content: center;
 }
 #name {
   color: hsl(0, 0%, 100%);
@@ -26,4 +29,25 @@
 #tagline {
   color: hsl(0, 0%, 100%);
   text-align: center;
+}
+body p {
+  font-size: 14px;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.sButton {
+  background-color: hsl(0, 0%, 20%);
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter";
+  font-weight: 400;
+  width: 150px;
+  text-align: centerdon;
 }
