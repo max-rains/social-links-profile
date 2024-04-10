@@ -8,22 +8,47 @@
 }
 
 .mainCard {
-  display: flexbox;
+  /* display: flexbox; */
   background-color: hsl(0, 0%, 12%);
-  /* align-items:stretch; */
-  /* justify-content:; */
+  /* display: block;
   width: auto;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 20%;
-  margin-left: 20%;
+  height: auto;
+  margin-left: 30%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%; */
+
+  width: 25%;
+  /* max-width: none; */
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
+
+/* MOBILE */
 @media (max-width: 375px) {
   .mainCard {
-    width: 100%;
+    width: 80%;
     max-width: none;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
   }
 }
+/* @media (max-width: 1440px) {
+  .mainCard {
+    width: 40%;
+    /* max-width: none; 
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 25%;
+  }
+} */
 
 #name {
   color: hsl(0, 0%, 100%);
@@ -32,7 +57,7 @@
 #profilePic {
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
   border-radius: 80px;
 }
 #city {
@@ -89,7 +114,7 @@ body {
 .socialGrid {
   display: grid;
   margin: auto;
-  row-gap: 1px;
+  row-gap: 5px;
   align-items: center;
   justify-content: center;
 
